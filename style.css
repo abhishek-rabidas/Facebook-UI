@@ -1,0 +1,100 @@
+#facebook {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-top: 12px;
+    padding-left: 25px;
+}
+
+* {
+    outline: none;
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    background-color: #3b5998;
+}
+
+body {
+    background-color: #efefef;
+}
+
+#main-box {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+#title-main {
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+#login-form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.un {
+    width: 320px;
+    height: 40px;
+    color: grey;
+    margin-top: -2px;
+    background-color: rgb(220, 228, 252);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#box-login {
+    margin: auto;
+    width: 320px;
+    height: 40px;
+    background-color: #1e3e85;
+}
+
+.login-button {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#box-login:hover {
+    background-color: #074ce2;
+    cursor: pointer;
+}
+
+#box-create-account {
+    margin: auto;
+    width: 320px;
+    height: 40px;
+    background-color: rgb(42, 179, 0);
+}
+
+#for-text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#forgot {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#box-create-account:hover {
+    background-color: rgb(55, 207, 9);
+    cursor: pointer;
+}
+
+::placeholder {
+    padding-left: 4px;
+}
